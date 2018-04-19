@@ -1,0 +1,13 @@
+CREATE TABLE  stock_basic_info (
+  code   character varying(20) ,
+  name   character varying(20) ,
+  all_anme_cn   character varying(255) ,
+  all_value   character varying(20) ,
+  gai_nian text,
+  all_anme_en   character varying(255) ,
+  city   character varying(50) ,
+  secondary_industry   character varying(255) ,
+  circulation_value   character varying(20) ,
+  industry   character varying(255) ,
+  online_days  character varying(20) 
+) 
